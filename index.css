@@ -1,0 +1,81 @@
+.content {
+    margin: 50px 50px 0 50px;
+}
+
+.image {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.image div {
+    font-size: 32px;
+    display: flex;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.text {
+    margin-top: 20px;
+    display: flex;
+}
+
+.text .column {
+    margin: 0 15px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.img-text {
+    display: flex;
+}
+
+.img-text span {
+    align-self: center;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.column-img {
+    border-radius: 50px;
+}
+
+.set2 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.set2 div {
+    margin-left: 20px;
+}
+
+.set3 {
+    margin-top: 20px;
+    display: flex;
+}
+
+.set3 div {
+    margin-right: 20px;
+}
+
+.bg-1 {
+    background-color: rgb(134, 0, 121);
+    color: #fff;
+}
+
+.bg-2 {
+    background-color: rgb(81, 81, 81);
+    color: #fff;
+}
+
+.bg-3 {}
+
+.bg-4 {
+    background-color: rgb(12, 2, 106);
+    color: #fff;
+}

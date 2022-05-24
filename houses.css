@@ -1,0 +1,32 @@
+.house-header {
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 50px 0 50px;
+}
+
+.detail-bits {
+    font-weight: bold;
+    width: 60px;
+    display: inline-block;
+    text-align: right;
+}
+
+.cell {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cell .details {
+    margin-top: 50px;
+    margin-left: 10px;
+}
